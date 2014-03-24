@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">AndroidMenu</string>
-    <string name="yangmingshan">陽明山國家公園</string>
-    <string name="yushan">玉山國家公園</string>
-    <string name="taroko">太魯閣國家公園</string>
-    <string name="myloc">我的位置</string>
-    <string name="exit">結束</string>
+    <string name="circle">圓形</string>
+    <string name="rectangle">正方形</string>
     <string name="prompt">請按Menu按鈕</string>
+    <string name="shape">形狀</string>
+    <string name="color">顏色</string>
+    <string name="exit">離開</string>
 </resources>

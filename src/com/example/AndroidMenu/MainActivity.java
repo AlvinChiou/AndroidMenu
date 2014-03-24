@@ -30,20 +30,11 @@ public class MainActivity extends Activity {
         //Line29:使用者選取項目時，會將被選取的MenuItem元件傳遞給item參數。
         String msg = "";
         switch(item.getItemId()){
-            case R.id.yangmingshan:
-                msg = getString(R.string.yangmingshan);
+            case R.id.circle:
+                msg = getString(R.string.circle);
                 break;
-            case R.id.yushan:
-                msg = getString(R.string.yushan);
-                break;
-            case R.id.taroko:
-                msg = getString(R.id.taroko);
-                break;
-            case R.id.myloc:
-                msg = getString(R.id.myloc);
-                break;
-            case R.id.exit:
-                msg = getString(R.id.exit);
+            case R.id.rectangle:
+                msg = getString(R.string.rectangle);
                 break;
             default:
             return super.onOptionsItemSelected(item);
